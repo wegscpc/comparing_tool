@@ -26,13 +26,7 @@ A Python-based automation tool for comparing files and directories and generatin
 
 ## 🚀 Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/file-comparison-tool.git
-   cd file-comparison-tool
-   ```
-
-2. No additional dependencies required - the tool uses only the Python standard library.
+1. No additional dependencies required - the tool uses only the Python standard library.
 
 ## 📊 Usage
 
@@ -101,8 +95,6 @@ When comparing the included example files with the default 3 decimal precision:
 
 The HTML report will highlight the difference in the second column, where the values are treated as `1234.001` and `1234.000`.
 
-![Example Report](https://via.placeholder.com/800x400?text=Example+Report+Screenshot)
-
 ## 🔎 Number Comparison Behavior
 
 The tool intelligently handles number formatting:
@@ -169,20 +161,9 @@ The tool follows these design principles:
 - File handling is done with proper error handling and UTF-8 encoding support
 - HTML reports use responsive design with modern CSS
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 🔗 Related Projects
 
 - [diff-match-patch](https://github.com/google/diff-match-patch) - Google's diff-match-patch library
 - [difflib](https://docs.python.org/3/library/difflib.html) - Python's standard library diff tools
 - [pandas-profiling](https://github.com/pandas-profiling/pandas-profiling) - Create HTML profiling reports from pandas DataFrames
 
----
-
-Created with ❤️ using Python
