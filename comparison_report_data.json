@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-04-07T18:38:51.904862",
+  "comparison_results": [
+    {
+      "source_path": "examples/file1.csv",
+      "target_path": "examples/file2.csv",
+      "status": "different",
+      "diff_lines": [
+        "--- examples/file1.csv",
+        "+++ examples/file2.csv",
+        "@@ -1,5 +1,5 @@",
+        " name,value,code,date",
+        "-abc,1234.001,qwert,2025/04/07",
+        "-def,5678.002,asdfg,2025/04/08",
+        "-ghi,9012.003,zxcvb,2025/04/09",
+        "-jkl,3456.004,poiuy,2025/04/10",
+        "+abc,1234.000,qwert,2025/04/07",
+        "+def,5678.000,asdfg,2025/04/08",
+        "+ghi,9012.000,zxcvb,2025/04/09",
+        "+jkl,3456.000,poiuy,2025/04/10"
+      ],
+      "is_csv": true,
+      "source_content": [
+        "name,value,code,date",
+        "abc,1234.00100,qwert,2025/04/07",
+        "def,5678.00200,asdfg,2025/04/08",
+        "ghi,9012.00300,zxcvb,2025/04/09",
+        "jkl,3456.00400,poiuy,2025/04/10"
+      ],
+      "target_content": [
+        "name,value,code,date",
+        "abc,1234.00000,qwert,2025/04/07",
+        "def,5678.00000,asdfg,2025/04/08",
+        "ghi,9012.00000,zxcvb,2025/04/09",
+        "jkl,3456.00000,poiuy,2025/04/10"
+      ],
+      "headers": [
+        "name",
+        "value",
+        "code",
+        "date"
+      ],
+      "source_rows": [
+        [
+          "name",
+          "value",
+          "code",
+          "date"
+        ],
+        [
+          "abc",
+          "1234.00100",
+          "qwert",
+          "2025/04/07"
+        ],
+        [
+          "def",
+          "5678.00200",
+          "asdfg",
+          "2025/04/08"
+        ],
+        [
+          "ghi",
+          "9012.00300",
+          "zxcvb",
+          "2025/04/09"
+        ],
+        [
+          "jkl",
+          "3456.00400",
+          "poiuy",
+          "2025/04/10"
+        ]
+      ],
+      "target_rows": [
+        [
+          "name",
+          "value",
+          "code",
+          "date"
+        ],
+        [
+          "abc",
+          "1234.00000",
+          "qwert",
+          "2025/04/07"
+        ],
+        [
+          "def",
+          "5678.00000",
+          "asdfg",
+          "2025/04/08"
+        ],
+        [
+          "ghi",
+          "9012.00000",
+          "zxcvb",
+          "2025/04/09"
+        ],
+        [
+          "jkl",
+          "3456.00000",
+          "poiuy",
+          "2025/04/10"
+        ]
+      ]
+    }
+  ]
+}
